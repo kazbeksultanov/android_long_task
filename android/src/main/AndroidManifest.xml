@@ -9,6 +9,7 @@
         android:name=".AppService"
         android:enabled="true"
         android:exported="false"
+        android:stopWithTask="true"
         android:foregroundServiceType="connectedDevice|dataSync|location|mediaPlayback|mediaProjection|phoneCall" />
   </application>
 
